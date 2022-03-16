@@ -1,6 +1,6 @@
 def fun():
     print("On the function")
-    return "bacer"
+    return "mikasa"
 
 fun()
 print(fun())
