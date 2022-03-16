@@ -1,5 +1,5 @@
 def main():
-    print("On the fonction1")
+    print("On the fonction2")
 
 if __name__ == "__main__":
     main()
