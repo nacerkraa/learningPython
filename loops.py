@@ -1,8 +1,6 @@
 #
-# Exemple of code in here..
+# Exemple of code in here..for loop
 #
-
-
 
 def main():
     x, y = 0, 10
@@ -12,7 +10,7 @@ def main():
         x = x + 1
     # Define for loop
 
-    for x in range(5,10):
+    for x in range(4,10):
         print(x)
 
     # use for loop over a collection
