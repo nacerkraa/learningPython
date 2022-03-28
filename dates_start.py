@@ -18,7 +18,7 @@ def main():
   
   # retrieve today's weekday (0=Monday, 6=Sunday)
   print("Today's weekday # Is:", today.weekday())
-  days = ["Mon", "Thu", "Wen","Thur", "Fri","Sat", "Sun"]
+  days = ["Mon", "Thu", "Wend","Thur", "Fri","Sat", "Sun"]
   print(days[today.weekday()])
 
   
