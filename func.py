@@ -1,6 +1,6 @@
 def fun():
     print("On the function")
-    return "hello"
+    return "hello world!"
 
 fun()
 print(fun())
