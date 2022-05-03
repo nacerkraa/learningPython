@@ -5,6 +5,7 @@ def fun():
 def calc_years(year):
             today = date.today()
             Age = today.year - year
+            Return Age 
             
 fun()
 print(fun())
