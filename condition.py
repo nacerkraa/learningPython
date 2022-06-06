@@ -3,7 +3,7 @@
 def main():
     x, y = 100, 100
     # condition folow user if, elif, else
-    if (x < y & x = 100):
+    if (x < y and x = 100):
         st = "x is less then y"
     elif(x==y):
         st = "x is equal then y"
