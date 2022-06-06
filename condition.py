@@ -7,7 +7,7 @@ def main():
     if (x < y and x = 100):
         st = "X is less then Y"
     elif(x==y):
-        st = "xX is equal then Y"
+        st = "X is equal then Y"
     else:
         st = "X is greator then Y"
     print(st)
