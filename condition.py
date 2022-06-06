@@ -3,12 +3,13 @@
 def main():
     x, y = 100, 100
     # condition folow user if, elif, else
+    
     if (x < y and x = 100):
-        st = "x is less then y"
+        st = "X is less then Y"
     elif(x==y):
-        st = "x is equal then y"
+        st = "xX is equal then Y"
     else:
-        st = "x is greator then y"
+        st = "X is greator then Y"
     print(st)
 
 if __name__ == "__main__":
