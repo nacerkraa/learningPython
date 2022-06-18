@@ -1,6 +1,5 @@
-#
 # Exemple of code in here
-#
+
 
 class myClass():
     def method1(self):
