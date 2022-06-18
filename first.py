@@ -3,7 +3,7 @@ def main():
     print("my sub function3")
 def fact(num):
     for(i in range(1,num) ):
-          num = num * i
+          num = num * (i+1)
 
 if __name__ == "__main__":
     main()
