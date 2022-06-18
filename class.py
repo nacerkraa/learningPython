@@ -25,6 +25,3 @@ def main():
     c2.method1()
     c2.method2("this is another class")
    
-
-if __name__ == "__main__":
-    main()
