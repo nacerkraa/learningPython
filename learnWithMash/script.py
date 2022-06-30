@@ -2,6 +2,6 @@
 i = 1
 
 while(i <= 5): # still excute until the condition is false
-    print("*" * i)
+    print("*" * i) # create an tringle shape
     i += 1
 print("done!")
