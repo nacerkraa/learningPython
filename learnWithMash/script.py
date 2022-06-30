@@ -1,11 +1,10 @@
 
-import math 
+is_hot = False
+is_cold = False
 
-
-x = 1.5
-print("The Original Value is: " + str(x))
-
-print("The Ciel of the Value is: " + str(math.ceil(x)))
-
-print("The Floor of the Value is: " + str(math.floor(x)))
-
+if(is_hot):
+    print("is hot")
+elif(is_cold):
+    print("is cold")
+else:
+    print("It's a levely day")
