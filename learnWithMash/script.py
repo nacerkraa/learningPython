@@ -7,4 +7,4 @@ x = 10
 
 x = x + 3
 
-x += 3 # agmented assigment operation
+x += 3 # agmented assigment operater (x*=3 or x-= 3)
