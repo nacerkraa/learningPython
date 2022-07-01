@@ -3,6 +3,8 @@ mitrix = [
     [6, 8, 2],
     [7, 5, 9],
     ]
-print(mitrix)
-print(mitrix[0] [2])
+
+for row in mitrix:
+    for item in row:
+        print(item)
 
