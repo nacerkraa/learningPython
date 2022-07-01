@@ -1,7 +1,4 @@
 
-prices = [10, 30, 60]
-total = 0
-for price in prices:
-    total += price
-
-print(f"Total is: ${total}")
+for i in range(10):
+    for j in range(10):
+        print(f"({i,j})")
