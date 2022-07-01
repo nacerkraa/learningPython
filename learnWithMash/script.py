@@ -3,4 +3,4 @@ from array import array
 
 array = ["Nacer", "Sara", "Jhon"]
 
-print(array)
+print(array[1])
