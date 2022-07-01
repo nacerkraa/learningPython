@@ -1,4 +1,6 @@
 
-for i in range(4):
-    for j in range(4):
-        print(f"({i,j})")
+for i in range(2):
+    print("x"* 5)
+    for j in range(1):
+        print("x" * 2)
+print("x" * 2)
