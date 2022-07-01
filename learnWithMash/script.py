@@ -1,6 +1,3 @@
-
-for i in range(2):
-    print("x"* 5)
-    for j in range(1):
-        print("x" * 2)
-print("x" * 2)
+numbers = [5,2,5,2,2]
+for item in numbers:
+    print("x" * item)
