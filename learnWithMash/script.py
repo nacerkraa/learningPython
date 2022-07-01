@@ -1,7 +1,8 @@
-from array import array
 
+prices = [10, 30, 60]
 
-# array = ["Nacer", "Sara", "Jhon"]
+price = 0
+for i in prices:
+    price = price + i
 
-for i in range(5, 10) :
-    print(i)
+print(f"${price}")
