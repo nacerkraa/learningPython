@@ -1,7 +1,7 @@
 
 prices = [10, 30, 60]
-price = 0
+total = 0
 for i in prices:
-    price += i
+    total += i
 
-print(f"${price}")
+print(f"${total}")
