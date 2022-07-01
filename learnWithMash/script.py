@@ -1,2 +1,6 @@
-for item in ["Nacer", "Sara", "Jhon"]:
-    print(item)
+from array import array
+
+
+array = ["Nacer", "Sara", "Jhon"]
+
+print(array)
