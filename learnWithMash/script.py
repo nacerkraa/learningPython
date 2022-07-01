@@ -1,4 +1,4 @@
 
-for i in range(10):
-    for j in range(10):
+for i in range(4):
+    for j in range(4):
         print(f"({i,j})")
