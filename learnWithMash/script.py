@@ -10,6 +10,7 @@ numbers.insert(0, 1021) # for adding on the to top of the list
 print(numbers)
 
 numbers.remove(5) # remove an item
+numbers.clear() # remove all the items
 
 
 print(numbers)
