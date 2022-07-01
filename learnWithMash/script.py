@@ -9,7 +9,7 @@ print(numbers)
 numbers.insert(0, 1021) # for adding on the to top of the list
 print(numbers)
 
-numbers.remove(5) # remove an item
+numbers.remove(5) # remove an item from the list
 print(numbers)
 
 numbers.pop() # remove the last item from the list
