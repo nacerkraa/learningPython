@@ -8,4 +8,4 @@ dic = {
     "is_verified": True
 }
 
-print(dic.get("email2", "nacer@gmail.com"))
+print(dic.get("email", "nacer@gmail.com"))
