@@ -7,4 +7,4 @@ dic = {
     "email": "nacer@exemple.com"
 }
 
-print(dic.get("email2"))
+print(dic.get("email2", "nacer@gmail.com"))
