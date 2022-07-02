@@ -1,8 +1,9 @@
-# Define a tuple
-# you can just count or index method
+# Define A Dictionnary
 
-numberes = [6, 3, 1]
+dic = {
+    "name": "nacer",
+    "age": 25,
+    "email": "nacer@exemple.com"
+}
 
-x, y, z = numberes
-
-print(y)
+print(dic)
