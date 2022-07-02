@@ -1,6 +1,6 @@
 # Define a function
 
-def user_info(name, age):
-    print(f"Hello {name} your age is {age}")
+def sequare(number):
+    print(number * number)
 
-user_info("nacer",25)
+sequare(5)
