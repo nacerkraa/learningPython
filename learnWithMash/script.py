@@ -9,4 +9,4 @@ dic = {
     "email": "nacer@exemple.com"
 }
 
-print(dic["email"])
+print("email" in dic)
