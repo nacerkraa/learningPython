@@ -1,6 +1,6 @@
 # Define a function
 
 def sequare(number):
-    print(number * number)
+    return number * number
 
-sequare(5)
+print(sequare(8))
