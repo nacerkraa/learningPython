@@ -2,10 +2,10 @@
 
 
 dic = {
-    "name": "nacer",
-    "age": 25,
-    "email": "nacer@exemple.com",
-    "is_verified": True
+    "1": "one",
+    "2": "two",
+    "3": "three",
+    "4": "four"
 }
 
-print(dic.get("email", "nacer@gmail.com"))
+number = input("number: ")
