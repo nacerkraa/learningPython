@@ -1,8 +1,14 @@
-import numbers
+
+from os import remove
 
 
-numbers = [6, 3, 1, 6]
 
-numbers.sort()
-numbers.reverse()
-print(numbers)
+numberes = [6, 3, 1, 6, 5, 3]
+uniques = []
+
+
+for item in numberes:
+    if item not in uniques:
+        uniques.append(item)
+
+print(uniques)
