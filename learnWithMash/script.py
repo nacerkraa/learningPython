@@ -1,15 +1,6 @@
-# Define A Dictionnary
+# Define a function
 
-message = input("> ")
-words = message.split(" ")
-emojes = {
-    ":)": "🙂",
-    ":(": "🙁",
-}
+def user_info(name, age):
+    print(f"Hello {name} your age is {age}")
 
-output = ""
-
-for word in words:
-    output += emojes.get(word, word) + " "
-
-print(output)
+user_info("nacer",25)
