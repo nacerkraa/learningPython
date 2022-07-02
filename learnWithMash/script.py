@@ -10,5 +10,8 @@ dic = {
 
 number = input("number: ")
 
-for item in number:
-    print(dic[item])
+output = ""
+for ch in number:
+    output += dic.get(ch,"?") + " "
+
+print(output)
