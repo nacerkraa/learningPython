@@ -10,6 +10,6 @@ emojes = {
 output = ""
 
 for word in words:
-    output += emojes.get(word,word) + " "
+    output += emojes.get(word, word) + " "
 
 print(output)
