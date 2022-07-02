@@ -9,3 +9,6 @@ dic = {
 }
 
 number = input("number: ")
+
+for item in number:
+    print(dic[item])
