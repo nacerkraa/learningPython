@@ -1,6 +1,7 @@
 # Define a function
 
-def sequare(number):
-    return number * number
-
-print(sequare(8))
+try:
+    age = int(input("Age: "))
+    print(age)
+except ValueError:
+    print("Invalid Value")
