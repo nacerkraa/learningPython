@@ -6,9 +6,9 @@ class Person:
 
 
     def Talk(self):
-        print("Hello")
+        print(f"Hello, I'm {self.name}")
 
-person1 = Person("Nacer")
+person1 = Person("Ahmed")
 
 print(person1.name)
 
