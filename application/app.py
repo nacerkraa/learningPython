@@ -1,9 +1,11 @@
-from finder import second_max_number,find_max
-from converters import lbs_to_kg
-NumberList = [5, 2, 3, 6]
-firstMax = find_max(NumberList)
-secondMax = second_max_number(NumberList)
+# How to find the second max number on a list of numbers?
 
-print(f"The first max is: {firstMax}")
-print(f"The second max is: {secondMax}")
-#print(lbs_to_kg(25))
+# first we difine a list of numbers
+numbers = [5, 4, 3, 2, 9, 8]
+
+# we sort the list
+numbers.sort()
+
+# print the second last number
+print(numbers[-1])
+    
