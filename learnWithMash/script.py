@@ -1,7 +1,7 @@
 # Define a function
 
 class Animal:
-    def walk():
+    def walk(self):
         print("Walking")
 
 class Dog(Animal):
@@ -9,4 +9,6 @@ class Dog(Animal):
 
 class Cat(Animal):
     pass
-    
+
+ca1 = Cat()
+ca1.walk()
