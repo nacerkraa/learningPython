@@ -1,5 +1,8 @@
 
 import random
 
-for i in range(3):
-    print(random.randint(10, 20))
+Persons= ["nacer", "Ahmed", "Moustapha"]
+
+leader = random.choice(Persons)
+
+print(leader)
