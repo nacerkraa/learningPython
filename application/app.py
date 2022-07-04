@@ -1,8 +1,13 @@
 
 import random
 
-Persons= ["nacer", "Ahmed", "Moustapha"]
+class lib:
 
-leader = random.choice(Persons)
+    def roll(self):
+        first = random.randint(1, 6)
+        second = random.randint(1, 6)
+        return first, second
 
-print(leader)
+libo = lib()
+
+print(libo.roll())
